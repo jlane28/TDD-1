@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(password_checker.Password_Test, org.scalatest.tools.Framework$$anon$1@5e40f5ba, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPassword_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA password checker[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  determines proper length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  - rejects passwords that are less than 6 characters, checks if there are any special characters, checks if there are numbers, and checks if there are upper case letters. *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    false was not equal to true (Password_Test.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 438 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	password_checker.Password_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

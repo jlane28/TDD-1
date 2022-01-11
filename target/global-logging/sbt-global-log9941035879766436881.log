@@ -1,0 +1,39 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"56","parents":[]},"eventTime":1641588221815,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/lanej/OneDrive/CS403/tdd_intro/src/main/scala/password_checker/Password.scala"},"buildTarget":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"56","parents":[]},"eventTime":1641588221822,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Compile"},"errors":0,"warnings":0,"time":7}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"57","parents":[]},"eventTime":1641588221827,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Test"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\lanej\\OneDrive\\CS403\\tdd_intro\\target\\scala-3.1.0\\test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/lanej/OneDrive/CS403/tdd_intro/src/test/scala/password_checker/Password_Test.scala"},"buildTarget":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Test"},"diagnostics":[{"range":{"start":{"line":5,"character":28},"end":{"line":5,"character":28}},"severity":1,"source":"sbt","message":"Cyclic reference involving val <import>"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E046] Cyclic Error: C:\Users\lanej\OneDrive\CS403\tdd_intro\src\test\scala\password_checker\Password_Test.scala:6:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m[33mclass[0m [35mPassword_Test[0m [33mextends[0m [35mAnyFunSpec[0m [33mwith[0m [35mMatchers[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m  |                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |                            Cyclic reference involving val <import>[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"\u001b[31m-- [E046] Cyclic Error: C:\\Users\\lanej\\OneDrive\\CS403\\tdd_intro\\src\\test\\scala\\password_checker\\Password_Test.scala:6:28 \u001b[0m\r\n\u001b[31m6 |\u001b[0m\u001b[33mclass\u001b[0m \u001b[35mPassword_Test\u001b[0m \u001b[33mextends\u001b[0m \u001b[35mAnyFunSpec\u001b[0m \u001b[33mwith\u001b[0m \u001b[35mMatchers\u001b[0m {\r\n  |                            \u001b[31m^\u001b[0m\r\n  |                            Cyclic reference involving val <import>"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/lanej/OneDrive/CS403/tdd_intro/src/test/scala/password_checker/Password_Test.scala"},"buildTarget":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Test"},"diagnostics":[{"range":{"start":{"line":2,"character":7},"end":{"line":2,"character":20}},"severity":1,"source":"sbt","message":"value scalatest is not a member of org"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: C:\Users\lanej\OneDrive\CS403\tdd_intro\src\test\scala\password_checker\Password_Test.scala:3:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m[33mimport[0m org.scalatest.funspec.AnyFunSpec[0m
+[0m[[0m[31merror[0m] [0m[0m  |       [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |       value scalatest is not a member of org[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"\u001b[31m-- [E008] Not Found Error: C:\\Users\\lanej\\OneDrive\\CS403\\tdd_intro\\src\\test\\scala\\password_checker\\Password_Test.scala:3:11 \u001b[0m\r\n\u001b[31m3 |\u001b[0m\u001b[33mimport\u001b[0m org.scalatest.funspec.AnyFunSpec\r\n  |       \u001b[31m^^^^^^^^^^^^^\u001b[0m\r\n  |       value scalatest is not a member of org"})[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"two errors found"})[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"two errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/lanej/OneDrive/CS403/tdd_intro/src/test/scala/password_checker/Password_Test.scala"},"buildTarget":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Test"},"diagnostics":[{"range":{"start":{"line":5,"character":28},"end":{"line":5,"character":28}},"severity":1,"source":"sbt","message":"Cyclic reference involving val <import>"},{"range":{"start":{"line":2,"character":7},"end":{"line":2,"character":20}},"severity":1,"source":"sbt","message":"value scalatest is not a member of org"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"57","parents":[]},"eventTime":1641588222219,"message":"Compiled root-test","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/lanej/OneDrive/CS403/tdd_intro/#root/Test"},"errors":2,"warnings":0,"time":392}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 7, 2022, 3:43:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨3, shutdown, null})[0m

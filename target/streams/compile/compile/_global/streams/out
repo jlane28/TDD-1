@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: C:\Users\lanej\OneDrive\CS403\tdd_intro\src\main\scala\password_checker\Password.scala:13:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m    [33mval[0m specCharsArr[[35mChar[0m] = Array([31m'!'[0m,[31m'@'[0m,[31m'#'[0m,[31m'$'[0m,[31m'%'[0m,[31m'^'[0m,[31m'&'[0m,[31m'*'[0m,[31m'?'[0m,[31m'>'[0m,[31m'<'[0m,[31m':'[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        invalid pattern[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\lanej\OneDrive\CS403\tdd_intro\src\main\scala\password_checker\Password.scala:15:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    [33mif[0m (password.exists(specCharsArr.contains(_))) [31mtrue[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Not found: specCharsArr[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

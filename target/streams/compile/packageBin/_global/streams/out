@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\password-checker_3-0.0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	password_checker[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\classes\password_checker[0m
+[0m[[0m[0mdebug[0m] [0m[0m	password_checker\Password$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\classes\password_checker\Password$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	password_checker\Password.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\classes\password_checker\Password.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	password_checker\Password.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lanej\OneDrive\CS403\tdd_intro\target\scala-3.1.0\classes\password_checker\Password.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
